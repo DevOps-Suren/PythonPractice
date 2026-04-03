@@ -47,7 +47,7 @@ Problem Statement: Write a Python program that:
 Expected Output:
 For example, if the function is called with 5, it should return:
 
-Assignment 4 - Task 2 -  Using the Math Module for Calculations4
+Assignment 3 - Task 2 -  Using the Math Module for Calculations4
 
 Problem Statement: Write a Python program that:
 1.   Asks the user for a number as input.
