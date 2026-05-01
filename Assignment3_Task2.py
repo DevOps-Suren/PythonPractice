@@ -34,6 +34,9 @@ def main():
         print(f"\n Results for number :- {num}")
         print(f"Square root  :- {sqrt}")
         print(f"Logarithm (log e)  :- {log}")
+
+
+
         print(f"Sin (in Radians(  :- {sine}")
 
     except ValueError:
