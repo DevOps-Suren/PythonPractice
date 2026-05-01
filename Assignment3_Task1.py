@@ -9,11 +9,10 @@ Problem Statement: Write a Python program that:
 """
 
 def factorial(num):
-    factorial =1
-    while num > 1:
-        factorial *= num
-        num -= 1
-    return factorial
-
-n =int(input("Enter a Number:"))
-print(f"Factorial for {n} is {factorial(n)}")
+  if num == 1:
+       return 1
+  else:
+      fact  = num * factorial(num-1)
+      return fact
+num =int(input("Enter a Number:"))
+print(f"Factorial for {num} is {factorial(num)}")
